@@ -1,0 +1,19 @@
+<h1>Testing</h1>
+<label for="edadUno">Edad 1: </label>
+<input id="edadUno"type="number"[(ngModel)]="edadUno">
+<br>
+<br>
+<label for="edadDos">Edad 2: </label>
+<input id="edadDos"type="number" [(ngModel)]="edadDos">
+<br>
+<br>
+La suma es: {{suma}}
+<br>
+El promedio es: {{promedio}} 
+<br>
+<br>
+<button id="btn-calcular" (click)="Calcular(edadUno.value, edadDos.value)" type="button">Calcular</button>
+<br>
+<button id="btn-limpiar" (click)="LimpiarInputs()"type="button">Limpiar cuadro de textos</button>
+
+<router-outlet></router-outlet>

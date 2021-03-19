@@ -19,6 +19,6 @@ export class AppComponent {
     this.edadUno = 0;
     this.edadDos = 0;
     this.suma = 0;
-    this.edadDos = 0;
+    this.promedio = 0;
   }
 }

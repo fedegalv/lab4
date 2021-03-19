@@ -11,6 +11,10 @@ export class AppComponent {
   promedio:number = 0;
   edadUno:number = 0;
   edadDos:number = 0;
+  usuario={
+    nombre : null,
+    clave : null
+  }
   Calcular(){
     this.suma = this.edadUno + this.edadDos;
     this.promedio = this.suma / 2;
